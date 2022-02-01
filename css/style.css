@@ -9,16 +9,17 @@ body {
 }
 
 
+
 header {
     position: fixed;
+    top: 0px;
     left: 0px;
-    right: 10px;
     width: 100%;
+    z-index: 2;
+    text-align: right;
 }
 
 nav {
-    display: inline-block;
-    text-align: right;
     line-height: 70px;
     height: 70px;
 }
@@ -26,7 +27,7 @@ nav {
 nav li {
     display: inline-block;
     list-style-type: none;
-    padding: 10px;
+    padding: 4px;
 }
 
 nav li a {
@@ -67,7 +68,7 @@ nav li a {
 
 
 
-/* immagini */
+/* immagini e testo */
 
 .red,
 .green,
@@ -83,9 +84,11 @@ nav li a {
 .text-green {
     text-align: center;
     color: #ff0;
+    font-size: 36px;
 }
 
 .text-yellow {
     text-align: center;
     color: #008000;
+    font-size: 36px;
 }
