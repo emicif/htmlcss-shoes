@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    overflow-y: hidden;
 }
+
 
 
 /* header */
@@ -43,6 +45,8 @@ nav li a {
 
 
 /* container */
+
+
 
 #container-1,
 #container-2,
@@ -85,7 +89,6 @@ nav li a {
 }
 
 .text-yellow {
-    text-align: center;
     color: #008000;
     font-size: 56px;
 }
