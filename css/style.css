@@ -74,12 +74,12 @@ nav li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
 .text-red, 
 .text-green {
-    text-align: center;
     color: #ff0;
     font-size: 56px;
 }
